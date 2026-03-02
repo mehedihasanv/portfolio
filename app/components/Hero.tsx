@@ -112,7 +112,8 @@ export default function Hero() {
                   rel="noopener noreferrer"
                   className="..."
                 >
-                  {" "}
+                  <DownloadIcon />
+                  Download Resume
                 </a>
                 <a
                   href="#contact"
