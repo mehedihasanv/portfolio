@@ -107,10 +107,8 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-8 justify-center lg:justify-start">
                 <a
                   href="/Mehedi_Hasan_Resume.pdf"
-                  download="Mehedi_Hasan_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="..."
+                  download
+                  className="group flex items-center gap-2 px-6 py-3 bg-accent text-background font-semibold rounded-full hover:bg-accent-light transition-all duration-300 hover:shadow-lg hover:shadow-accent/25"
                 >
                   <DownloadIcon />
                   Download Resume
