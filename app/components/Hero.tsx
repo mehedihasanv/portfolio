@@ -42,14 +42,25 @@ const DownloadIcon = () => (
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/mehedihasanv", icon: GithubIcon },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/mehedi-hasan-3a36233b4", icon: LinkedInIcon },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/mehedi-hasan-3a36233b4",
+    icon: LinkedInIcon,
+  },
   { name: "Twitter", href: "https://x.com/HasanMehed57540", icon: TwitterIcon },
-  { name: "Facebook", href: "https://www.facebook.com/mehedi.hasan.65118", icon: FacebookIcon },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/mehedi.hasan.65118",
+    icon: FacebookIcon,
+  },
 ];
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
       {/* Background ambient glow */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 -left-32 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
@@ -96,11 +107,12 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-8 justify-center lg:justify-start">
                 <a
                   href="/Mehedi_Hasan_Resume.pdf"
-                  download
-                  className="group flex items-center gap-2 px-6 py-3 bg-accent text-background font-semibold rounded-full hover:bg-accent-light transition-all duration-300 hover:shadow-lg hover:shadow-accent/25"
+                  download="Mehedi_Hasan_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="..."
                 >
-                  <DownloadIcon />
-                  Download Resume
+                  {" "}
                 </a>
                 <a
                   href="#contact"
@@ -135,7 +147,10 @@ export default function Hero() {
               <div className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-surface border-2 border-accent/20 overflow-hidden animate-pulse-glow">
                 <div className="w-full h-full bg-gradient-to-br from-accent/20 via-surface-light to-accent/10 flex items-center justify-center">
                   <span className="text-8xl font-display text-accent/40">
-                    <img src="/Gemini_Generated_Image_22snmo22snmo22sn.png" alt="" />
+                    <img
+                      src="/Gemini_Generated_Image_22snmo22snmo22sn.png"
+                      alt=""
+                    />
                   </span>
                 </div>
               </div>
