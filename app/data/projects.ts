@@ -24,8 +24,8 @@ export const projects: Project[] = [
     liveLink: "https://roaring-bubblegum-26fe9c.netlify.app",
     githubLink: "https://github.com/mehedihasanv/final-project-client",
     challenges:
-      "role separation, secure approval, conditional access, data integration, scalability, UI polish",
-    improvements: " analytics, integrations, scalability, security",
+      "Role separation, secure approval, conditional access, data integration, scalability, UI polish",
+    improvements: " Analytics, integrations, scalability, security",
     gradient: "from-amber-500/20 via-orange-600/20 to-red-500/20",
   },
   {
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     gradient: "from-blue-500/20 via-cyan-600/20 to-teal-500/20",
   },
   {
-    id: "App Project",
+    id: "App-Project",
     name: "App Project",
     image: "/Screenshot 2026-03-02 110322.png",
     tagline: "Install apps instantly, hassle-free ",
