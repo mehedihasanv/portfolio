@@ -2,15 +2,15 @@ import SectionReveal from "./SectionReveal";
 
 const experiences = [
   {
-    role: "Junior Web Developer",
-    company: "Tech Solutions BD",
-    period: "Jun 2025 - Present",
-    type: "Full-time",
+    role: "MERN Stack Developer ",
+    company: "Personal Projects",
+    period: "Oct 2024 - Present",
+    type: "Self-learning",
     description: [
-      "Develop and maintain responsive web applications using React.js and Next.js",
-      "Collaborate with the design team to implement pixel-perfect UI components",
-      "Build RESTful APIs with Node.js and Express for various client projects",
-      "Optimize application performance achieving 40% faster load times",
+      "Built responsive web applications using React.js and Next.js",
+      "Created RESTful APIs with Node.js and Express",
+      "Integrated MongoDB for data storage",
+      "Implemented authentication and authorization in projects",
     ],
   }
 ];

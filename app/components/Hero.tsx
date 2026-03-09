@@ -90,7 +90,7 @@ export default function Hero() {
 
             <SectionReveal delay={300}>
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-medium mb-6">
-                <span className="text-accent">Full Stack</span>{" "}
+                <span className="text-accent">MERN Stack</span>{" "}
                 <span className="text-muted-light">Web Developer</span>
               </h2>
             </SectionReveal>

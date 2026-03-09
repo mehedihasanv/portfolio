@@ -37,7 +37,7 @@ export default function About() {
               <p className="text-lg text-foreground leading-relaxed">
                 I&apos;m{" "}
                 <span className="text-accent font-semibold">Mehedi Hasan</span>,
-                a Full Stack Web Developer with a deep passion for building
+                a MERN Stack Web Developer with a deep passion for building
                 things that live on the internet. My journey into programming
                 started during my university years when I built my first website
                 and was instantly hooked by the power of turning ideas into
@@ -58,7 +58,7 @@ export default function About() {
 
             <SectionReveal delay={200}>
               <p className="text-muted leading-relaxed">
-                I particularly enjoy working on full-stack applications where I
+                I particularly enjoy working on MERN-Stack applications where I
                 can see the complete picture — from designing intuitive user
                 interfaces to architecting robust backend systems.
                 Problem-solving is what excites me most; there&apos;s nothing

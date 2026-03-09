@@ -48,7 +48,7 @@ export default function Footer() {
               Mehedi Hasan<span className="text-foreground">.</span>
             </span>
             <p className="text-muted text-sm mt-3 max-w-xs leading-relaxed">
-              Full Stack Web Developer crafting digital experiences with passion
+              MERN Stack Web Developer crafting digital experiences with passion
               and precision.
             </p>
           </div>
