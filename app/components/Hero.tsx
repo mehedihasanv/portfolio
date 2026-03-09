@@ -73,7 +73,7 @@ export default function Hero() {
           {/* Text */}
           <div className="flex-1 text-center lg:text-left">
             <SectionReveal>
-              <span className="inline-block px-4 py-1.5 text-sm font-medium text-accent border border-accent/30 rounded-full mb-6">
+              <span className="inline-block px-4 py-1.5 text-sm font-medium text-accent border border-accent/30 rounded-full mb-6 mt-6">
                 Available for freelance work
               </span>
             </SectionReveal>
