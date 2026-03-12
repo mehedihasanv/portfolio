@@ -106,8 +106,8 @@ export default function Hero() {
             <SectionReveal delay={500}>
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-8 justify-center lg:justify-start">
                 <a
-                  href="/Mehedi_Hasan_Resume.pdf"
-                  download
+                  href="https://drive.google.com/uc?export=download&id=1KH0l5BPV1qqIQFO23AqWFoA6OT2iqwfF"
+                  target="_blank"
                   className="group flex items-center gap-2 px-6 py-3 bg-accent text-background font-semibold rounded-full hover:bg-accent-light transition-all duration-300 hover:shadow-lg hover:shadow-accent/25"
                 >
                   <DownloadIcon />
