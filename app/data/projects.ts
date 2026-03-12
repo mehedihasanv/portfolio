@@ -30,11 +30,11 @@ export const projects: Project[] = [
   },
   {
     id: "Homenest",
-    name: "Homenest",
+    name: "HomeNest",
     image: "/Screenshot 2026-03-02 110303.png",
     tagline: "A real estate buy-sell platform",
     description:
-      "A platform where user can buy property and also can sell their property ",
+      "A full-stack real estate platform where users can list properties for sale, browse listings, and engage with the community through ratings and reviews.",
     techStack: ["Node.js","React", "JavaScript", "Express.js", "Netlify"],
     liveLink: "https://amazing-sopapillas-d0f562.netlify.app",
     githubLink: "https://github.com/mehedihasanv/homenest-client",
